@@ -1,4 +1,4 @@
-package singletonePattern.eagerVersion;
+package creationalDesignPatterns.singletonePattern.eagerVersion;
 
 public class App {
     public static void main(String[] args) {

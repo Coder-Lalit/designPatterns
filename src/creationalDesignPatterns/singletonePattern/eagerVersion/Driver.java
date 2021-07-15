@@ -1,4 +1,4 @@
-package singletonePattern.eagerVersion;
+package creationalDesignPatterns.singletonePattern.eagerVersion;
 
 public class Driver {
     public static Driver INSTANCE = new Driver();

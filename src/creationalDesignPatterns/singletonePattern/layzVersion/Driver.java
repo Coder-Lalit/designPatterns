@@ -1,4 +1,4 @@
-package singletonePattern.layzVersion;
+package creationalDesignPatterns.singletonePattern.layzVersion;
 
 public class Driver {
     private static Driver driver;

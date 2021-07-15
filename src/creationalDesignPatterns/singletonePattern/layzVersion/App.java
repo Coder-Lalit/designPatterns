@@ -1,4 +1,4 @@
-package singletonePattern.layzVersion;
+package creationalDesignPatterns.singletonePattern.layzVersion;
 
 public class App {
     public static void main(String[] args) {

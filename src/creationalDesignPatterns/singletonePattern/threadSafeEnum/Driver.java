@@ -1,4 +1,4 @@
-package singletonePattern.threadSafeEnum;
+package creationalDesignPatterns.singletonePattern.threadSafeEnum;
 
 public enum Driver {
     DRIVER;
