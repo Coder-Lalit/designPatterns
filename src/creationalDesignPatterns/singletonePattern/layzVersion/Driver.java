@@ -5,9 +5,11 @@ public class Driver {
     private Driver(){}
 
     public static Driver getDriver() {
-        if (driver == null)
-            driver=new Driver();
-        return driver;
+        synchronized (Driver.class){
+            if (driver == null)
+                driver=new Driver();
+            return driver;
+        }
     }
 
     public void doSomething() {

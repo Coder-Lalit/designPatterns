@@ -19,5 +19,11 @@ public class Operator {
         });
     }
 
+    public void undo(){
+        commandList.forEach(c->{
+            c.execute();
+        });
+    }
+
 
 }

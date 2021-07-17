@@ -14,6 +14,7 @@ public class App {
         Operator operator = new Operator();
         operator.addCommand(new TurnOnLights(light));
         operator.addCommand(new TurnOffLights(light));
+        operator.addCommand(new DimLights(light));
         operator.execute();
     }
 }

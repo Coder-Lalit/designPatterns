@@ -4,7 +4,7 @@ public class Driver {
     private String name;
     private int version;
 
-    public Driver(Builder b){
+    private Driver(Builder b){
         this.name=b.name;
         this.version=b.version;
     }
